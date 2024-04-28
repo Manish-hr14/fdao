@@ -6,7 +6,7 @@ import staticLogo from "./robotgif/aa.jpg";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const navLinks = ["Home", "Apps", "About Us"];
+  const navLinks = ["Home",  "About Us"];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
